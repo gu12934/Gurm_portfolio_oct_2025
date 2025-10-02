@@ -117,3 +117,97 @@ Preferred communication style: Simple, everyday language.
 - **Fetch API**: Asynchronous loading of chatbot conversation data
 - **DOM API**: Dynamic content manipulation and event handling
 - **CSS Variables**: Modern browser theming support
+- 
+
+================================
+
+This is a static portfolio website for Gurm built with HTML, CSS, and JavaScript.
+It can be deployed to GitHub Pages or any static hosting service.
+
+## FILE STRUCTURE
+--------------
+/
+├── index.html              - Home page
+├── projects.html           - Projects showcase
+├── experience.html         - Professional experience & education
+├── about.html              - Personal story & journey
+├── LICENSE.txt             - MIT License
+├── assets/
+│   ├── css/
+│   │   └── main.css       - Global stylesheet
+│   ├── js/
+│   │   ├── main.js        - Navigation & utilities
+│   │   ├── chatbot.js     - Chatbot functionality
+│   │   └── chatbot-data.json - Chatbot conversation tree
+│   └── images/
+│       └── avatar.jpg     - Profile picture (REPLACE THIS)
+
+FEATURES
+--------
+✓ Responsive design for mobile, tablet, and desktop
+✓ Interactive chatbot with pre-loaded Q&A
+✓ StatCounter visitor tracking integration
+✓ Professional timeline and skills matrix
+✓ Project showcase with GitHub links
+✓ Social media integration
+✓ Modern gradient design with smooth animations
+
+DEPLOYMENT TO GITHUB PAGES
+---------------------------
+1. Create a new GitHub repository
+2. Push all files to the repository:
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin [your-repo-url]
+   git push -u origin main
+
+3. Enable GitHub Pages:
+   - Go to repository Settings
+   - Navigate to Pages section
+   - Select "main" branch as source
+   - Click Save
+   - Your site will be available at: https://[username].github.io/[repo-name]
+
+CUSTOMIZATION
+-------------
+1. Replace avatar image:
+   - Add your photo to: assets/images/avatar.jpg
+   - Recommended size: 250x250px or larger (square format)
+
+2. Update StatCounter tracking (optional):
+   - Sign up at https://statcounter.com
+   - Get your project ID and security code
+   - Update the script in all HTML files (index.html, projects.html, etc.)
+   - Replace: sc_project=13048084 and sc_security="0e0c84d5"
+
+3. Customize chatbot conversations:
+   - Edit: assets/js/chatbot-data.json
+   - Follow the existing JSON structure
+   - Each conversation state needs: "message" and "options" array
+   - Options link to the "next" state
+
+4. Update content:
+   - Edit HTML files directly to modify text, links, and information
+   - Update social media links in the hero section
+   - Add or remove projects in projects.html
+   - Modify experience timeline in experience.html
+
+BROWSER COMPATIBILITY
+---------------------
+✓ Chrome/Edge (latest)
+✓ Firefox (latest)
+✓ Safari (latest)
+✓ Mobile browsers (iOS Safari, Chrome Mobile)
+
+CONTACT
+-------
+For questions about this website, contact:
+Gurmol Sohi - gurmolsofly12@gmail.com
+LinkedIn: https://www.linkedin.com/in/gurmol-s/
+GitHub: https://github.com/gu12934
+
+LICENSE
+-------
+MIT License - See LICENSE.txt for details
+
