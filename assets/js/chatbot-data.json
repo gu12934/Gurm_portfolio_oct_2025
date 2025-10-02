@@ -1,0 +1,159 @@
+{
+  "start": {
+    "message": "Hi! I'm Gurmol's virtual assistant. What would you like to know?",
+    "options": [
+      {"text": "Who is Gurmol?", "next": "who"},
+      {"text": "What's his experience?", "next": "experience"},
+      {"text": "Show me his projects", "next": "projects"},
+      {"text": "How can I contact him?", "next": "contact"}
+    ]
+  },
+  "who": {
+    "message": "Gurmol Sohi is a Calgary-based data developer and innovator who transitioned from pre-med (BSc Biological Sciences) to tech. He's currently pursuing an MSc in Data Science at the University of Calgary and working as a Business Analyst at Halo Health. He's actively involved in Calgary's tech ecosystem through hackathons, bootcamps, and community leadership.",
+    "options": [
+      {"text": "What's his background?", "next": "background"},
+      {"text": "Current roles?", "next": "current"},
+      {"text": "Community involvement?", "next": "community"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "background": {
+    "message": "Gurmol earned his BSc in Biological Sciences from the University of Calgary (2015-2020). During his studies, he discovered a passion for data and coding, leading him to pivot from pre-med to technology. He completed multiple bootcamps including Lighthouse Labs, SAIT Data Analytics, AMII Machine Learning, and Npower Calgary.",
+    "options": [
+      {"text": "What about certifications?", "next": "certs"},
+      {"text": "Tell me about his pivot", "next": "pivot"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "certs": {
+    "message": "Gurmol has completed:\n• IBM Data Analyst Certificate\n• Google PM Certificate\n• Microsoft Azure Certifications (DP-900, AZ-900, AI-900)\n• Lighthouse Labs Data Analytics Bootcamp\n• SAIT Post-Diploma Data Analytics\n• AMII Machine Learning Program\n• Npower Calgary Junior Data Analyst Program",
+    "options": [
+      {"text": "What are his skills?", "next": "skills"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "pivot": {
+    "message": "Gurmol's pivot from pre-med to tech was inspired by discovering data science during his biological sciences degree. Instead of pursuing medical school, he threw himself into the tech ecosystem, participating in hackathons, completing bootcamps, and building real-world projects. His story has been featured in podcasts like 'The Rejected Pre-Med Podcast' and 'Leaders, Innovators and Big Ideas'.",
+    "options": [
+      {"text": "Read his story on Medium", "next": "medium"},
+      {"text": "What's his experience?", "next": "experience"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "medium": {
+    "message": "You can read Gurmol's career transition story on Medium:\n\n• 'How the COVID Pandemic Inspired My Pivot into Tech'\n• Venture for Canada (VFC) 2021 Experience\n• Lighthouse Labs Success Story\n\nVisit the About page or his Medium profile @gurmolsofly12 for these articles!",
+    "options": [
+      {"text": "What else should I know?", "next": "who"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "current": {
+    "message": "Gurmol is currently:\n• Business Analyst at Halo Health\n• Data Science Intern at Nutrien Inc (Jan-Apr 2025)\n• Technical Instructor at MakerKids (since Sept 2021)\n• Pursuing MSc in Data Science at University of Calgary\n• Brand Ambassador for CITI",
+    "options": [
+      {"text": "Past experience?", "next": "past"},
+      {"text": "What are his skills?", "next": "skills"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "past": {
+    "message": "Previous roles include:\n• Data Science Intern at FYMAB Inc (Apr-Jun 2024)\n• Applied Data Science Lab Intern at Cybera Inc - Computer Vision (Apr-Aug 2022)\n• Machine Learning Technician at AMII (Dec 2021-Mar 2022)\n• Scientific Analyst at Motionhall Inc (Dec 2021-Mar 2022)\n• System Consultant at Longview Systems (Aug-Dec 2021)\n• Research Fellow at HSBC Social Innovation Academy (Sept 2020-Apr 2021)",
+    "options": [
+      {"text": "Tell me about Cybera", "next": "cybera"},
+      {"text": "See his projects", "next": "projects"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "cybera": {
+    "message": "At Cybera Inc, Gurmol was an Applied Data Science Lab (ADSL) Intern focusing on computer vision. He developed computer vision models to calculate distances among objects and conduct object detection. He's an alumnus of the Cybera Electron cohort and was also a NeuroNexus competition innovator!",
+    "options": [
+      {"text": "What other achievements?", "next": "achievements"},
+      {"text": "Show me projects", "next": "projects"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "achievements": {
+    "message": "Gurmol's achievements include:\n• Cybera Electron Cohort Alumni\n• NeuroNexus Competition Innovator\n• Featured in Lighthouse Labs Success Story\n• Podcast guest on 'The Rejected Pre-Med Podcast' and 'Leaders, Innovators and Big Ideas'\n• Board Member of Sikh Youth Calgary\n• Board Member of Mazboot Youth Initiative",
+    "options": [
+      {"text": "Community work?", "next": "community"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "community": {
+    "message": "Gurmol is passionate about giving back to the community:\n• Board Member: Sikh Youth Calgary\n• Board Member: Mazboot Youth Initiative\n• Active in Calgary's tech and startup ecosystem\n• Volunteer with various non-profits\n• Mentors aspiring data scientists through Topmate\n• Shares knowledge through his YouTube channel and Medium blog",
+    "options": [
+      {"text": "How to connect?", "next": "contact"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "experience": {
+    "message": "Gurmol has diverse experience in data science, machine learning, and analytics. He's worked across multiple industries including healthcare tech, agriculture (Nutrien), AI research (AMII), computer vision (Cybera), and biotech analysis (Motionhall). He's also passionate about education, teaching programming to young learners at MakerKids.",
+    "options": [
+      {"text": "Current roles?", "next": "current"},
+      {"text": "Past experience?", "next": "past"},
+      {"text": "What are his skills?", "next": "skills"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "skills": {
+    "message": "Gurmol's technical skills include:\n\n💻 Programming: Python, R, SQL\n📊 Visualization: Tableau, PowerBI, Streamlit, Plotly, Seaborn\n🤖 Data Science: Machine Learning, AI, Financial Modelling\n🗄️ Databases: PostgreSQL, MySQL\n🛠️ Tools: Databricks, Git, VS Code, Jupyter\n\nSoft skills: Stakeholder Management, Data Storytelling, Problem Solving, Project Management",
+    "options": [
+      {"text": "See his projects", "next": "projects"},
+      {"text": "What's his experience?", "next": "experience"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "projects": {
+    "message": "Gurmol has worked on numerous projects including:\n\n• SQL and Statistical Modelling projects (Lighthouse Labs)\n• Sports Analytics with Reddit NLP extraction\n• Indian Food 101 data storytelling (Kaggle)\n• FastAPI networking applications\n• Streamlit dashboards (plotting & SQL playground)\n• Tableau visualizations\n• Computer vision models\n• And many hackathon projects!",
+    "options": [
+      {"text": "GitHub repositories?", "next": "github"},
+      {"text": "Video walkthroughs?", "next": "videos"},
+      {"text": "Tableau visualizations?", "next": "tableau"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "github": {
+    "message": "Check out Gurmol's GitHub at github.com/gu12934! Key projects include:\n\n• SQL-Project-LHL\n• LHL_Final_Capstone_Project\n• Statistical Modelling Project\n• Streamlit applications (sports analytics, plotting dashboard, SQL playground)\n• Kaggle Data Analysis (Indian Food 101)\n• FastAPI projects\n\nAll with detailed documentation and code!",
+    "options": [
+      {"text": "What skills do these use?", "next": "project-skills"},
+      {"text": "Video demos?", "next": "videos"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "project-skills": {
+    "message": "His projects demonstrate skills in:\n• Python (Pandas, NumPy, Scikit-learn)\n• NLP with NLTK and Spacy\n• Web frameworks (Streamlit, FastAPI)\n• Data visualization (Plotly, Seaborn, Tableau)\n• SQL and database management\n• Machine Learning and Statistical Modelling\n• API development and networking\n• Reddit scraping with PRAW",
+    "options": [
+      {"text": "See all skills", "next": "skills"},
+      {"text": "Back to projects", "next": "projects"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "videos": {
+    "message": "Gurmol shares project walkthroughs and tech content on YouTube (@gurmsinghtech)!\n\nPlaylists include:\n• Projects Showcase - demos of data science projects\n• Hackathons - experiences from tech competitions\n\nGreat way to see his work in action!",
+    "options": [
+      {"text": "Other ways to connect?", "next": "contact"},
+      {"text": "Back to projects", "next": "projects"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "tableau": {
+    "message": "Gurmol creates interactive data visualizations on Tableau Public! Check out his profile at:\n\npublic.tableau.com/app/profile/gurmol.sohi/vizzes\n\nYou'll find business intelligence dashboards and data stories showcasing his analytical skills.",
+    "options": [
+      {"text": "Other projects?", "next": "github"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "contact": {
+    "message": "Connect with Gurmol:\n\n📧 Email: gurmolsofly12@gmail.com\n💼 LinkedIn: linkedin.com/in/gurmol-s\n📅 Book a call: topmate.io/gurmol_singh\n📝 Medium: @gurmolsofly12\n📺 YouTube: @gurmsinghtech\n💻 GitHub: github.com/gu12934\n📊 Tableau: public.tableau.com/app/profile/gurmol.sohi",
+    "options": [
+      {"text": "What can I ask him about?", "next": "ask-about"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  },
+  "ask-about": {
+    "message": "Gurmol is happy to discuss:\n• Career transitions into tech\n• Data science and analytics\n• Mentorship and career advice\n• Collaboration opportunities\n• Hackathons and tech events\n• Community initiatives\n\nBook a 1-on-1 session on Topmate or reach out via LinkedIn/email!",
+    "options": [
+      {"text": "How to reach him?", "next": "contact"},
+      {"text": "Back to start", "next": "start"}
+    ]
+  }
+}
