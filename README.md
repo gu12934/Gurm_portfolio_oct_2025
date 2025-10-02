@@ -1,0 +1,1 @@
+# Gurm_portfolio_oct_2025
