@@ -1,10 +1,10 @@
 # Gurm_portfolio_oct_2025
 
-# Gurmol Sohi Portfolio Website
+# Gurm Portfolio Website
 
 ## Overview
 
-This is a static portfolio website for Gurmol Sohi, a Calgary-based data developer who transitioned from pre-med (BSc Biological Sciences) to technology. The site showcases his professional journey, projects, experience, and personal story. Built entirely with vanilla HTML, CSS, and JavaScript, it's designed for deployment on GitHub Pages or any static hosting service.
+This is a static portfolio website for Gurm, a Calgary-based data developer who transitioned from pre-med (BSc Biological Sciences) to technology. The site showcases his professional journey, projects, experience, and personal story. Built entirely with vanilla HTML, CSS, and JavaScript, it's designed for deployment on GitHub Pages or any static hosting service.
 
 The website features:
 - Multi-page navigation (Home, Projects, Experience, About)
