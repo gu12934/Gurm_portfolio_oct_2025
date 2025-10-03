@@ -1,7 +1,7 @@
 # Gurm_portfolio_oct_2025
 
 # Gurm Portfolio Website
-
+visit my site: https://gu12934.github.io/Gurm_portfolio_oct_2025/
 ## Overview
 
 This is a static portfolio website for Gurm, a Calgary-based data developer who transitioned from pre-med (BSc Biological Sciences) to technology. The site showcases his professional journey, projects, experience, and personal story. Built entirely with vanilla HTML, CSS, and JavaScript, it's designed for deployment on GitHub Pages or any static hosting service.
